@@ -1,0 +1,17 @@
+;0 - variant
+my_label: 
+jz r1, my_label
+
+add 0b10101,[r1],[0xAf] ;binary an hex
+add 10,0o12,[r0]         ;comment
+add 10,012,[r0]         ;comment octal 0... or 0o...
+
+; -------------------
+
+add 0,5,r1
+l1:
+add 0,r1,[r1]
+add r1,0xFF,r1
+jz r1,l2
+jz 0,l1
+l2:

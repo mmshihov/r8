@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ru_RU">
+<context>
+    <name>R8AsmWindow</name>
+    <message>
+        <location filename="../r8asmwindow.ui" line="14"/>
+        <source>R8 RISC Engine</source>
+        <translation>R8 RISC процессор</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="39"/>
+        <source>Registers:</source>
+        <translation>Регистры:</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="55"/>
+        <source>r0:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="76"/>
+        <location filename="../r8asmwindow.ui" line="113"/>
+        <location filename="../r8asmwindow.ui" line="154"/>
+        <location filename="../r8asmwindow.ui" line="191"/>
+        <location filename="../r8asmwindow.ui" line="232"/>
+        <location filename="../r8asmwindow.ui" line="269"/>
+        <location filename="../r8asmwindow.ui" line="310"/>
+        <location filename="../r8asmwindow.ui" line="347"/>
+        <source>0b11110000</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="92"/>
+        <source>r1:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="133"/>
+        <source>r2:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="170"/>
+        <source>r3:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="211"/>
+        <source>r4:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="248"/>
+        <source>r5:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="289"/>
+        <source>r6:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="326"/>
+        <source>r7:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="388"/>
+        <source>Memory:</source>
+        <translation>Ячейки памяти:</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="414"/>
+        <source>Output:</source>
+        <translation>Порт вывода:</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="430"/>
+        <source>Execution time:</source>
+        <translation>Вермя выполнения:</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="467"/>
+        <source>Available commands:</source>
+        <translation>Доступные команды:</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="488"/>
+        <source>Program:</source>
+        <translation>Программа:</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="500"/>
+        <source>; write your R8 program here
+</source>
+        <translation>; пишите программу здесь</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="510"/>
+        <location filename="../r8asmwindow.ui" line="530"/>
+        <location filename="../r8asmwindow.ui" line="537"/>
+        <location filename="../r8asmwindow.ui" line="544"/>
+        <location filename="../r8asmwindow.ui" line="551"/>
+        <location filename="../r8asmwindow.ui" line="558"/>
+        <source>...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="599"/>
+        <location filename="../r8asmwindow.cpp" line="438"/>
+        <source>Save source</source>
+        <translation>Сохранить исходный текст</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="604"/>
+        <location filename="../r8asmwindow.cpp" line="379"/>
+        <source>&amp;Exit</source>
+        <translation>&amp;Выход</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="609"/>
+        <source>Compile</source>
+        <translation>Компилировать</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.ui" line="614"/>
+        <source>m</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="191"/>
+        <source>in &lt;dst&gt;   ;dst := input</source>
+        <translation>in &lt;прк&gt;   ;прк := ввод</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="201"/>
+        <source>out &lt;src&gt;   ;output := src</source>
+        <translation>out &lt;ист&gt;   ;порт-вывода := ист</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="211"/>
+        <source>ror &lt;src1&gt;, &lt;src2&gt;, &lt;dst&gt;   ;dst := src1 &gt;&gt;&gt; src2</source>
+        <translation>ror &lt;ист1&gt;, &lt;ист2&gt;, &lt;прк&gt;   ;прк := ист1 &gt;&gt;&gt; ист2</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="221"/>
+        <source>rol &lt;src1&gt;, &lt;src2&gt;, &lt;dst&gt;   ;dst := src1 &lt;&lt;&lt; src2</source>
+        <translation>rol &lt;ист1&gt;, &lt;ист2&gt;, &lt;прк&gt;   ;прк := ист1 &lt;&lt;&lt; ист2</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="231"/>
+        <source>not &lt;src&gt;, &lt;dst&gt;   ;dst := NOT(src)</source>
+        <translation>not &lt;ист&gt;, &lt;прк&gt;   ;прк := НЕ(ист)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="241"/>
+        <source>xor &lt;src1&gt;, &lt;src2&gt;, &lt;dst&gt;   ;dst := XOR(src1,src2)</source>
+        <translation>xor &lt;ист1&gt;, &lt;ист2&gt;, &lt;прк&gt;   ;прк := XOR(ист1,ист2)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="251"/>
+        <source>and &lt;src1&gt;, &lt;src2&gt;, &lt;dst&gt;   ;dst := AND(src1,src2)</source>
+        <translation>and &lt;ист1&gt;, &lt;ист2&gt;, &lt;прк&gt;   ;прк := И(ист1,ист2)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="261"/>
+        <source>or &lt;src1&gt;, &lt;src2&gt;, &lt;dst&gt;   ;dst := OR(src1,src2)</source>
+        <translation>or &lt;ист1&gt;, &lt;ист2&gt;, &lt;прк&gt;   ;прк := ИЛИ(ист1,ист2)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="271"/>
+        <source>nand &lt;src1&gt;, &lt;src2&gt;, &lt;dst&gt;   ;dst := NOT(AND(src1,src2))</source>
+        <translation>nand &lt;ист1&gt;, &lt;ист2&gt;, &lt;прк&gt;   ;прк := НЕ(И(ист1,ист2))</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="278"/>
+        <source>nor &lt;src1&gt;, &lt;src1&gt;, &lt;dst&gt;   ;dst := NOT(OR(src1,src2))</source>
+        <translation>nor &lt;ист1&gt;, &lt;ист1&gt;, &lt;прк&gt;   ;прк := НЕ(ИЛИ(ист1,ист2))</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="288"/>
+        <source>add &lt;src1&gt;, &lt;src2&gt;, &lt;dst&gt;   ;dst := src1 + src2</source>
+        <translation>add &lt;ист1&gt;, &lt;ист2&gt;, &lt;прк&gt;   ;прк := ист1 + ист2</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="298"/>
+        <source>sub &lt;src1&gt;, &lt;src2&gt;, &lt;dst&gt;  ;dst := src1 - src2</source>
+        <translation>sub &lt;ист1&gt;, &lt;ист2&gt;, &lt;прк&gt;  ;прк := ист1 - ист2</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="308"/>
+        <source>jz &lt;src&gt;, &lt;lbl&gt;   ;if (src=0x00) goto lbl</source>
+        <translation>jz &lt;ист&gt;, &lt;метка&gt;   ;if (ист=0x00) goto метка</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="318"/>
+        <source>jo &lt;src&gt;, &lt;lbl&gt;   ;if (src=0xFF) goto lbl</source>
+        <translation>jo &lt;ист&gt;, &lt;метка&gt;   ;if (ист=0xFF) goto метка</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="373"/>
+        <source>&amp;File</source>
+        <translation>&amp;Файл</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="382"/>
+        <source>&amp;Program</source>
+        <translation>&amp;Пограмма</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="391"/>
+        <source>&amp;Help</source>
+        <translation>&amp;Справка</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="392"/>
+        <location filename="../r8asmwindow.cpp" line="875"/>
+        <source>About R8</source>
+        <translation>Про R8</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="395"/>
+        <source>UI language</source>
+        <translation>Язык интерфейса</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="436"/>
+        <source>&amp;Save</source>
+        <translation>Со&amp;хранить</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="439"/>
+        <location filename="../r8asmwindow.cpp" line="440"/>
+        <location filename="../r8asmwindow.cpp" line="446"/>
+        <location filename="../r8asmwindow.cpp" line="447"/>
+        <location filename="../r8asmwindow.cpp" line="453"/>
+        <location filename="../r8asmwindow.cpp" line="454"/>
+        <source>Save program source to file</source>
+        <translation>Сохранить исходный текст программы в файл</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="443"/>
+        <source>&amp;Save as...</source>
+        <translation>Сохранить &amp;как...</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="445"/>
+        <source>Save source as...</source>
+        <translation>Сохранить исходный текст как...</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="450"/>
+        <source>&amp;Open</source>
+        <translation>&amp;Открыть</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="452"/>
+        <source>Open program source</source>
+        <translation>Загрузить исходный текст программы</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="457"/>
+        <source>&amp;Compile</source>
+        <translation>&amp;Перевести в машинный код</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="458"/>
+        <source>F8</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="459"/>
+        <source>Compile source (F8)</source>
+        <translation>Перевести исходный текст в машинный код(F8)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="460"/>
+        <location filename="../r8asmwindow.cpp" line="461"/>
+        <source>Compile program source to machine code (F8)</source>
+        <translation>Перевести исходный текст программы в машинный код(F8)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="464"/>
+        <source>Step</source>
+        <translation>Выполнить команду</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="465"/>
+        <source>F10</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="466"/>
+        <source>Step (F10)</source>
+        <translation>Выполнить команду (F10)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="467"/>
+        <location filename="../r8asmwindow.cpp" line="468"/>
+        <source>Execute one R8 command (F10)</source>
+        <translation>Выполнить одну команду R8 (F10)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="471"/>
+        <source>Run</source>
+        <translation>Выполнить программу</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="472"/>
+        <source>F5</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="473"/>
+        <source>Run (F5)</source>
+        <translation>Выполнить программу (F5)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="474"/>
+        <location filename="../r8asmwindow.cpp" line="475"/>
+        <source>Execute R8 program (F5)</source>
+        <translation>Выполнить программу R8 до конца или до точки останова (F5)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="478"/>
+        <source>&amp;Restart</source>
+        <translation>&amp;Перезапуск</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="479"/>
+        <source>F4</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="480"/>
+        <source>Reset/Restart (F4)</source>
+        <translation>Сброс процессора и перезапуск программы (F4)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="481"/>
+        <location filename="../r8asmwindow.cpp" line="482"/>
+        <source>Reset R8 processor and restart program (F4)</source>
+        <translation>Сбросить состояние R8-процессора и перезапустить программу(F4)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="485"/>
+        <source>Stop</source>
+        <translation>Останов</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="486"/>
+        <source>F2</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="487"/>
+        <source>Stop (F2)</source>
+        <translation>Остановить выполнение программы (F2)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="488"/>
+        <location filename="../r8asmwindow.cpp" line="489"/>
+        <source>Stop R8 program execution (F2)</source>
+        <translation>Остановить выполнение R8-программы (F2)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="492"/>
+        <source>Set/clear &amp;breakpoint</source>
+        <translation>&amp;Точка останова</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="493"/>
+        <source>F9</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="494"/>
+        <source>Set/clear breakpoint (F9)</source>
+        <translation>Поставить/убрать точку останова (F9)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="495"/>
+        <location filename="../r8asmwindow.cpp" line="496"/>
+        <source>Set/clear breakpoint at current source line (F9)</source>
+        <translation>Поставить/убрать точку останова на текущей строке (F9)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="503"/>
+        <source>Command set #%1</source>
+        <translation>Набор команд №%1</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="569"/>
+        <source>%1 clocks</source>
+        <comment>11</comment>
+        <translation>%1 тактов</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="575"/>
+        <source>%1 clocks</source>
+        <comment>0</comment>
+        <translation>%1 тактов</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="577"/>
+        <source>%1 clock</source>
+        <comment>1</comment>
+        <translation>%1 такт</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="579"/>
+        <source>%1 clocks</source>
+        <comment>5</comment>
+        <translation>%1 тактов</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="581"/>
+        <source>%1 clocks</source>
+        <comment>2</comment>
+        <translation>%1 такта</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="626"/>
+        <source>Bad expression</source>
+        <translation>Ошибка в построении выражения</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="629"/>
+        <source>Unresolved label &quot;%1&quot;</source>
+        <translation>Отсутствует объявление метки &quot;%1&quot; </translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="632"/>
+        <source>Comma expected</source>
+        <translation>Требуется запятая</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="635"/>
+        <source>Label &quot;%1&quot; redefinition</source>
+        <translation>Переопределение метки &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="638"/>
+        <source>Undefined &quot;%1&quot; command</source>
+        <translation>Неизвестная команда &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="641"/>
+        <source>Bad memory reference</source>
+        <translation>Ошибка в адресном выражении</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="644"/>
+        <source>Reference expected</source>
+        <translation>Ожидалось обращение к ячейке памяти</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="647"/>
+        <location filename="../r8asmwindow.cpp" line="650"/>
+        <source>Rbrace &quot;]&quot; expected</source>
+        <translation>Ожидалась открывающая квадратная скобка &quot;[&quot;</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="653"/>
+        <source>Register name expected instead &quot;%1&quot;</source>
+        <translation>Ожидалось имя регистра вместо &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="656"/>
+        <source>Error of unknown type</source>
+        <translation>Ошибка неизвестного типа</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="663"/>
+        <source>Unlnown token &quot;%1&quot; lexical error</source>
+        <translation>Лексическая ошибка: неизвестный терминал &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="666"/>
+        <source>Lexical error of unknown type</source>
+        <translation>Лексическая ошибка неизвестного типа</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="672"/>
+        <source>%1 at %2</source>
+        <translation>%1 в строке %2</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="757"/>
+        <source>Execution error: &quot;%1&quot; at %2</source>
+        <translation>Ошибка выполнения: &quot;%1&quot; в строке %2</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="802"/>
+        <location filename="../r8asmwindow.cpp" line="823"/>
+        <source>Save R8 source file</source>
+        <translation>Сохранить исходный текст программы</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="804"/>
+        <location filename="../r8asmwindow.cpp" line="825"/>
+        <location filename="../r8asmwindow.cpp" line="846"/>
+        <source>R8 sources(*.r8);;Text files (*.txt)</source>
+        <translation>Исходники R8 (*.r8);;Текстоые файлы (*.txt)</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="844"/>
+        <source>Open R8 source file</source>
+        <translation>Отктыть файл с исходным текстом R8</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="864"/>
+        <source>Save before exit</source>
+        <translation>Сохранить исходный текст программы</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="865"/>
+        <source>Save R8 source file?</source>
+        <translation>Сохранить исходный текст программы?</translation>
+    </message>
+    <message>
+        <location filename="../r8asmwindow.cpp" line="876"/>
+        <source>RISC R8 Engine (selectable command set)
+Author: M.M.Shihov, m.m.shihov@gmail.com</source>
+        <translation>RISC R8 процессор (с возможностью выбора набора инструкций)
+Автор: Михаил Шихов, m.m.shihov@gmail.com</translation>
+    </message>
+</context>
+<context>
+    <name>R8Engine</name>
+    <message>
+        <location filename="../r8engine.cpp" line="39"/>
+        <source>Uncnown opcode</source>
+        <translation>Неизвестный код команды</translation>
+    </message>
+    <message>
+        <location filename="../r8engine.cpp" line="47"/>
+        <location filename="../r8engine.cpp" line="55"/>
+        <source>Incorrect register index</source>
+        <translation>Неверный индекс регистра</translation>
+    </message>
+    <message>
+        <location filename="../r8engine.cpp" line="62"/>
+        <location filename="../r8engine.cpp" line="70"/>
+        <source>Incorrect memory index</source>
+        <translation>Неверный адрес ячейки памяти</translation>
+    </message>
+    <message>
+        <location filename="../r8engine.cpp" line="89"/>
+        <source>Bad reference for operand</source>
+        <translation>Некорректная ссылка на ячейку памяти</translation>
+    </message>
+    <message>
+        <location filename="../r8engine.cpp" line="116"/>
+        <source>It is not an LABEL reference</source>
+        <translation>Ожидалась метка</translation>
+    </message>
+    <message>
+        <location filename="../r8engine.cpp" line="109"/>
+        <source>Bad reference for result</source>
+        <translation>Некорректная ссылка на ячейку-приемник</translation>
+    </message>
+</context>
+<context>
+    <name>R8InputDialog</name>
+    <message>
+        <location filename="../r8inputdialog.ui" line="26"/>
+        <source>Input value</source>
+        <translation>Ввод значения</translation>
+    </message>
+    <message>
+        <location filename="../r8inputdialog.ui" line="34"/>
+        <source>Value:</source>
+        <translation>Значение:</translation>
+    </message>
+    <message>
+        <location filename="../r8inputdialog.ui" line="64"/>
+        <source>Break</source>
+        <translation>Прервать</translation>
+    </message>
+    <message>
+        <location filename="../r8inputdialog.ui" line="71"/>
+        <source>Input</source>
+        <translation>Ввести</translation>
+    </message>
+    <message>
+        <location filename="../r8inputdialog.cpp" line="28"/>
+        <source>Digit format error</source>
+        <translation>Ошибка ввода числа</translation>
+    </message>
+    <message>
+        <location filename="../r8inputdialog.cpp" line="29"/>
+        <source>You can input number in
+ - decimal (10)
+ - hex (0xA)
+ - oct (012)
+ - bin (0b1010)</source>
+        <translation>Вы можете вводить число в
+ - десятичном (10)
+ - шестнадцатеричном (0xA)
+ - восьмеричном (012)
+ - двоичном (0b1010)</translation>
+    </message>
+</context>
+</TS>

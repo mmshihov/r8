@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="breakpoint">image/breakpoint.png</file>
+        <file alias="compile">image/compile.png</file>
+        <file alias="restart">image/restart.png</file>
+        <file alias="run">image/run.png</file>
+        <file alias="step">image/step.png</file>
+        <file alias="stop">image/stop.png</file>
+        <file alias="save">image/save.png</file>
+        <file alias="open">image/open.png</file>
+        <file alias="saveas">image/saveas.png</file>
+        <file alias="r8">image/r8.png</file>
+    </qresource>
+    <qresource prefix="/translate">
+        <file alias="ru_RU">translate/r8asm_ru.tr.qm</file>
+    </qresource>
+</RCC>
